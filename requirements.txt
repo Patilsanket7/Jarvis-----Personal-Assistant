@@ -1,0 +1,7 @@
+opencv-python
+pillow
+pyttsx3
+playsound
+pyaudio
+hugchat
+pvporcupine
