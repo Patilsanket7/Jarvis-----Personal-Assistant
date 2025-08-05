@@ -26,5 +26,29 @@ A smart virtual assistant inspired by Iron Man's Jarvis, built using **Python** 
 ---
 
 ## 📁 Project Structure
-
-
+Jarvis/
+├── engine/
+│   ├── __init__.py
+│   ├── auth.py              # Facial authentication
+│   ├── command.py           # Text-to-speech and command responses
+│   ├── features.py          # Assistant features (e.g., hotword detection)
+│   ├── image_gen.py         # AI image generation
+│   ├── config.py            # Assistant settings and constants
+│   └── __pycache__/         # Cached Python files (ignored)
+│
+├── www/
+│   ├── index.html           # Frontend UI
+│   ├── style.css            # Styling with CSS
+│   ├── script.js            # JS interactions
+│   └── bootstrap/           # Bootstrap assets (if locally added)
+│
+├── .env                     # API keys (e.g., OpenAI)
+├── .gitignore               # Git ignore rules
+├── #Core Functionality.py   # Main functionality module (utility/misc)
+├── contacts.csv             # (ignored) possibly for contact handling
+├── device.bat               # Batch script for device actions
+├── jarvis.db                # SQLite database file
+├── main.py                  # Main GUI logic with Eel
+├── run.py                   # Runs Jarvis + hotword detection in parallel
+├── requirements.txt         # Python dependencies
+└── README.md                # Project overview (to be added)
